@@ -1,3 +1,3 @@
 # Beginning
-First repository in GitHub.
-Welcome to my first steps on GitHub
+First repository on GitHub.
+Welcome to our first steps on GitHub
