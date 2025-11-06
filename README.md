@@ -9,6 +9,7 @@ Almacenar datos
 Visualizar datos 
 ## Herramientas
 R
+GitHub
 ## Estructura del proyecto (carpetas)
 1. **Data** Cuenta con los datos base de la ctividad: Un archivo csv con lo genes usados en la actividad 
 2. **Scripts** Están los scripts en el lenguaje de programación R 
