@@ -1,0 +1,9 @@
+# Datos para clasificacion distintos tipos de cáncer The Cancer Genome Atlas (TCGA)
+## Archivo csv con la información de los diferntes genes
+En este documento existen 499 genes de 802 pacientes 
+### Nombre de los genes 
+1. **BRCA** (Breast Invasive Carcinoma) → Cáncer de mama invasivo
+2. **KIRC** (Kidney Renal Clear Cell Carcinoma) → Carcinoma de células renales claras
+3. **COAD** (Colon Adenocarcinoma) → Adenocarcinoma de colon
+4. **LUAD** (Lung Adenocarcinoma) → Adenocarcinoma de pulmón
+5. **PRAD** (Prostate Adenocarcinoma) → Adenocarcinoma de próstata
