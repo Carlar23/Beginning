@@ -11,4 +11,4 @@ Visualizar datos
 R
 ## Estructura del proyecto (carpetas)
 1. **Data** Cuenta con los datos base de la ctividad: Un archivo csv con lo genes usados en la actividad 
-2. **Scripts** Estas los scripts en R usados 
+2. **Scripts** Están los scripts en el lenguaje de programación R 
