@@ -13,4 +13,5 @@ Aprender a usar el repositorio de GitHub Almacenar datos Visualizar datos
 ## Estructura del proyecto (carpetas)
 1. **Data** Cuenta con los datos base de la actividad: Un archivo .csv con lo genes usados en la actividad
 2. **Scripts** Están los scripts en el lenguaje de programación RBeginning
+3. **Results** Encontramos los resultados del análisis PCA 
 
