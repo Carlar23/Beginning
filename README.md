@@ -1,4 +1,4 @@
-# Reducci-n-de-dimensionalidad_Proyecto_Bioinformatica
+# Reduccion-de-dimensionalidad_Proyecto_Bioinformatica
 First repository on GitHub.
 Welcome to our first steps on GitHub
 ## Description 
