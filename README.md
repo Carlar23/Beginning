@@ -10,5 +10,5 @@ Visualizar datos
 ## Herramientas
 R
 ## Estructura del proyecto (carpetas)
-**Data** Cuenta con los datos base de la ctividad: Un archivo csv con lo genes usados en la actividad 
-**Scripts** Estas los scripts en R usados 
+1. **Data** Cuenta con los datos base de la ctividad: Un archivo csv con lo genes usados en la actividad 
+2. **Scripts** Estas los scripts en R usados 
