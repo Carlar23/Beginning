@@ -1,12 +1,13 @@
 # Reducción_de_dimensionalidad_Proyecto_Bioinformática
 First repository on GitHub. Welcome to our first steps on GitHub
- ## Descripción
-Este proyecto de informática grupal de la materia de Introducción a la Programación Científica, tiene la finalidad de almacenar la información de la clase de Algoritmos e Inteligencia Artificial y describir la información base del tema de Reducción de dimensionalidad de los datos I
+
+## Descripción
+Este proyecto de informática grupal de la materia de Introducción a la Programación Científica tiene la finalidad de almacenar la información de la clase de Algoritmos e Inteligencia Artificial y describir la información base del tema de Reducción de dimensionalidad de los datos I.
 
 ## Objetivos
-Aprender a usar el repositorio de GitHub.
-Almacenar datos.
-Visualizar datos.
+Aprender a usar el repositorio de GitHub
+Almacenar datos
+Visualizar datos
 
 ## Herramientas
 1. R
@@ -15,5 +16,7 @@ Visualizar datos.
 ## Estructura del proyecto (carpetas)
 1. **Data** Cuenta con los datos base de la actividad: Un archivo .csv con lo genes usados en la actividad
 2. **Scripts** Están los scripts en el lenguaje de programación RBeginning
-3. **Results** Encontramos los resultados del análisis PCA 
+3. **Results** Encontramos los resultados del análisis PCA
+4. **URL** Se dispone de los enlaces a algunas bases de datos de interés
+   
 
