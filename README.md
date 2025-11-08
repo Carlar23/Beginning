@@ -5,9 +5,9 @@ First repository on GitHub. Welcome to our first steps on GitHub
 Este proyecto de informática grupal de la materia de Introducción a la Programación Científica tiene la finalidad de almacenar la información de la clase de Algoritmos e Inteligencia Artificial y describir la información base del tema de Reducción de dimensionalidad de los datos I.
 
 ## Objetivos
-Aprender a usar el repositorio de GitHub
-Almacenar datos
-Visualizar datos
+1. Aprender a usar el repositorio de GitHub
+2. Almacenar datos
+3. Visualizar datos
 
 ## Herramientas
 1. R
