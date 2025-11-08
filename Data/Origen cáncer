@@ -1,0 +1,6 @@
+#En este archivo se indica en qué células concretas se originan los distintos tipos de cáncer.
+##BRCA --> Células de los conductos o lobulillos de la mama.
+##KIRC --> Células del túbulo renal proximal.
+##COAD --> Células glandulares del colon.
+##LUAD --> Células secretoras de las vías respiratorias. 
+##PRAD --> Glándulas prostáticas.
