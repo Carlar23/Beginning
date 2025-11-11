@@ -1,5 +1,4 @@
-# Reducción_de_dimensionalidad_Proyecto_Bioinformática
-First repository on GitHub. Welcome to our first steps on GitHub
+# Reducción de dimensionalidad Proyecto Bioinformática
 
 ## Colaboradores
 1. Carlos Larbec Sanchez
