@@ -1,6 +1,14 @@
 # Reducción_de_dimensionalidad_Proyecto_Bioinformática
 First repository on GitHub. Welcome to our first steps on GitHub
 
+## Colaboradores
+1. Carlos Larbec Sanchez
+2. Cesar Vallejo Ruiz
+3. Diana Isabel Calderon Pardo
+4. Elena Fernandez Cabello
+5. Fernando Torres Montoya
+6. Fernando Bernal Torres
+
 ## Descripción
 Este proyecto de informática grupal de la materia de Introducción a la Programación Científica tiene la finalidad de almacenar la información de la clase de Algoritmos e Inteligencia Artificial y describir la información base del tema de Reducción de dimensionalidad de los datos I.
 
