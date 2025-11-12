@@ -13,11 +13,11 @@ Este proyecto de informática grupal de la materia de Introducción a la Program
 
 ## Objetivos
 1. Aprender a usar el repositorio de GitHub
-2. Almacenar datos
+2. Almacenar datos y códigos
 3. Visualizar datos
 
 ## Herramientas
-1. R
+1. Lenguaje de programación R
 2. GitHub
 
 ## Estructura del proyecto (carpetas)
