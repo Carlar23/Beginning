@@ -1,10 +1,19 @@
 # Reduccion-de-dimensionalidad_Proyecto_Bioinformatica
-First repository on GitHub. Welcome to our first steps on GitHub
+# Integrantes
+*Carlos Larbec Sanchez*
+*Cesar Vallejo Ruiz* 
+*Diana Isabel Calderon Pardo*
+*Elena Fernandez Cabello*
+*Fernando Torres Montoya*
+*Fernando Bernal Torres*
+ 
  ## Description
 Este proyecto de informática grupal de la materia de Introducción a la Programación Científica, tiene la finalidad d almacenar la información de la clase de Algoritmos e Inteligencia Artificial y describimos la información base del tema de Reducción de dimensionalidad de los datos I
 
 ## Objetivos
-Aprender a usar el repositorio de GitHub Almacenar datos Visualizar datos
+*Aprender a usar el repositorio de GitHub como una herramienta de colaboración en la maestria de bioinformatica 
+*Gestionar archivos y carpetas dentro del repositorio de GitHub
+*Colaborar y participar en grupo dentro del repositorio de GitHub
 
 ## Herramientas
 1. R
@@ -13,5 +22,6 @@ Aprender a usar el repositorio de GitHub Almacenar datos Visualizar datos
 ## Estructura del proyecto (carpetas)
 1. **Data** Cuenta con los datos base de la actividad: Un archivo .csv con lo genes usados en la actividad
 2. **Scripts** Están los scripts en el lenguaje de programación RBeginning
-3. **Results** Encontramos los resultados del análisis PCA 
+3. **Results** Encontramos los resultados del análisis PCA
+   
 
