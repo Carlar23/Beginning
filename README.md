@@ -1,10 +1,10 @@
 # Reduccion-de-dimensionalidad_Proyecto_Bioinformatica
 # Integrantes
-*Carlos Larbec Sanchez*
-*Cesar Vallejo Ruiz* 
-*Diana Isabel Calderon Pardo*
-*Elena Fernandez Cabello*
-*Fernando Torres Montoya*
+*Carlos Larbec Sanchez*;
+*Cesar Vallejo Ruiz*;
+*Diana Isabel Calderon Pardo*;
+*Elena Fernandez Cabello*;
+*Fernando Torres Montoya*;
 *Fernando Bernal Torres*
  
  ## Description
