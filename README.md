@@ -25,5 +25,5 @@ Este proyecto de informática grupal de la materia de Introducción a la Program
 2. **Scripts** Están los scripts en el lenguaje de programación RBeginning
 3. **Results** Encontramos los resultados del análisis PCA
 4. **URL** Se dispone de los enlaces a algunas bases de datos de interés
-   
+5. **Libraries** Se dispone de un archivo .txt donde estan los links a la documentación oficial de las librerias y las CheatSheet de cada una de ellas. 
 
