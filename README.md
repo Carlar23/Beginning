@@ -20,7 +20,8 @@ Este proyecto de informática grupal de la materia de Introducción a la Program
 1. Lenguaje de programación R.
 2. GitHub.
 
-## Estructura del proyecto (carpetas)
+## Estructura del proyecto 
+La estructura que esta formado este proyecto es por 6 carpetas, en donde se alamcena la siguiente información: 
 1. **Data** Cuenta con los datos base de la actividad: Un archivo .csv con lo genes usados en la actividad y un achivo que se describen los genes con los que cuentan las bases de datos
 2. **Libraries** Se dispone de un archivo en formato.txt con los links de la documentación oficial de las librerias y las CheatSheet. Ademas se tiene almcenado los PDF de la información de las librerias 
 3. **Results** Encontramos los resultados del análisis PCA  en formato PDF, obtenidos mediante el script en R.
