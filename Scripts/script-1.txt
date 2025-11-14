@@ -1,1 +1,64 @@
+### --- EJERCICIO PARA PRÁCTICAR EL CÁLCULO DE PCA --- ###
+#1. Preparación: Crea un nuevo data frame (iris_num) con solo las cuatro columnas numéricas
 
+iris
+head(iris)
+library(ggplot2)
+anyNA(iris)
+any(iris==0)
+summary(iris)
+iris_num<-iris[,1:4]
+iris_num
+
+#2. Cálculo de PCA
+pca.results.iris<-prcomp(iris_num, scale=TRUE, center=FALSE)
+pca.results.iris
+
+#Resultados de PCA 
+iris_numdf<-data.frame(pca.results.iris$x)
+
+
+# Varianza (cuadrado de la desviacion tipica)
+varianzas_iris <- pca.results.iris$x^2
+varianzas_iris
+
+# Total de la varianza de los datos
+total.varianza_iris<- sum(varianzas_iris)
+total.varianza_iris
+
+# Varianza explicada por cada componente principal
+varianza.explicada_iris <- varianzas_iris/total.varianza_iris
+varianza.explicada_iris
+
+# Calculamos la varianza acumulada 
+varianza.acumulada_iris <- cumsum(varianza.explicada_iris)
+varianza.acumulada_iris
+
+
+# Tomamos el numero de componentes principales que explican el 90% de la varianza
+n.pc.i <- min(which(varianza.acumulada_iris > 0.90))
+n.pc.i
+
+# Etiquetas de los ejes del gráfico
+x_label <- paste0(paste('PC1', round(varianza.explicada_iris[1] * 100, 2)), '%')
+y_label <- paste0(paste('PC2', round(varianza.explicada_iris[2] * 100, 2)), '%')
+
+# Representación gráfica de las primeras dos componentes principales respecto a los datos
+pca.results.iris
+
+# 1. Preparar el data frame de puntuaciones para ggplot
+#    Extraemos las coordenadas de las observaciones ($x) y añadimos la especie
+pca_scores <- as.data.frame(pca.results.iris$x)
+pca_scores$Species <- iris$Species # Añadimos la variable de agrupación original
+
+# 2. Generar el gráfico de dispersión (Scatter Plot)
+ggplot(pca_scores, aes(x = PC1, y = PC2, color = Species)) +
+  geom_point(size = 3, alpha = 0.8) +
+  labs(
+    title = "PCA de Flores Iris: Separación por Especie",
+    subtitle = "PC1 vs. PC2 explican 95.81% de la varianza",
+    x = "Primer Componente Principal (PC1: 73.0%)",
+    y = "Segundo Componente Principal (PC2: 22.8%)",
+    color = "Especie"
+  ) +
+  theme_minimal()
