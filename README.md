@@ -21,9 +21,9 @@ Este proyecto de informática grupal de la materia de Introducción a la Program
 2. GitHub.
 
 ## Estructura del proyecto (carpetas)
-1. **Data** Cuenta con los datos base de la actividad: Un archivo .csv con lo genes usados en la actividad.
-2. **Libraries** Se dispone de un archivo en formato.txt donde están los links a la documentación oficial de las librerias y las CheatSheet de cada una de ellas.
-3. **Results** Encontramos los resultados del análisis PCA obtenidos mediante el código.
+1. **Data** Cuenta con los datos base de la actividad: Un archivo .csv con lo genes usados en la actividad y un achivo que se describen los genes con los que cuentan las bases de datos
+2. **Libraries** Se dispone de un archivo en formato.txt con los links de la documentación oficial de las librerias y las CheatSheet. Ademas se tiene almcenado los PDF de la información de las librerias 
+3. **Results** Encontramos los resultados del análisis PCA  en formato PDF, obtenidos mediante el script en R.
 4. **Scripts** Están los scripts en el lenguaje de programación RBeginning.
 6. **URL** Se dispone de los enlaces a algunas bases de datos de interés.
  
