@@ -2,14 +2,14 @@
 # Análisis de Componentes Principales (PCA)
 ###########################################
 
-# Directorio de trabajo
+# Directorio de trabajo (este directorio se modificará dependiendo de la carpeta en donde uno se encuentre trabajando)
 setwd("C:/Users/diazc/Desktop/Algorit_inteligen_artificial/tema_1/data_export/rna_cancer")
 
-# Librerías necesarias
+# Librerías necesarias (sino estan instaladas es necesario previamente instlarlas)
 library(ggplot2)
 library(dplyr)
 
-# Lectura de los datos
+# Lectura de los datos 
 datos_raw <- read.csv("data.csv")
 etiquetas <- read.csv("labels.csv")
 
