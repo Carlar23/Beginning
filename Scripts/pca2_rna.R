@@ -14,7 +14,7 @@ datos_raw <- read.csv("data.csv")
 etiquetas <- read.csv("labels.csv")
 
 # Seleccionamos los primeros 500 genes (ignorando la primera columna si es ID)
-genes <- datos_raw[, 2:501] %>% mutate_all(as.numeric)
+genes <- datos_raw[, 2:601] %>% mutate_all(as.numeric)
 
 # Inspección básica de datos
 cat("Dimensiones del dataset:", dim(genes), "\n")
