@@ -3,7 +3,7 @@
 #######################################
 
 # Directorio en donde tendremos nuestros datos
-setwd("~/Desktop/PER_13711/Scripts/data/rna_cancer")
+setwd("C:/Users/diazc/Desktop/Algorit_inteligen_artificial/tema_1/data_export/rna_cancer")
 
 # Carga de librerias
 library(stats)   # librería para el PCA
@@ -83,3 +83,27 @@ ggplot(pca.df, aes(x=PC1, y=PC2, color=labels.raw$Class)) +
   theme_classic() +
   theme(panel.grid.major = element_line(color="gray90"), panel.grid.minor = element_blank(),
         panel.background = element_rect(fill = "gray95"), plot.title = element_text(hjust = 0.5))
+
+# Guardar como objeto el grafico
+
+grafico_pca <- ggplot(pca.df, aes(x = PC1, y = PC2, color = labels.raw$Class)) +
+  geom_point(size = 3) +
+  scale_color_manual(values = c('red', 'blue', 'green', 'orange', 'purple')) +
+  labs(
+    title = 'PCA - Types of Cancer',
+    x = x_label,
+    y = y_label,
+    color = 'Grupo'
+  ) +
+  theme_classic() +
+  theme(
+    panel.grid.major = element_line(color = "gray90"),
+    panel.grid.minor = element_blank(),
+    panel.background = element_rect(fill = "gray95"),
+    plot.title = element_text(hjust = 0.5)
+  )
+
+# Guardar como PDF 
+
+ggsave("grafico_pca.pdf", plot = grafico_pca, width = 8, height = 6)
+
