@@ -1,5 +1,6 @@
 ###############################
-# Grafico varianza n-dim MDS  #
+# Adiciona se agrega otra técnica para procesar datos y reudir la dimensionalidad como son :
+Grafico varianza n-dim MDS  #
 ###############################
 
 # Directorio en donde tendremos nuestros datos
